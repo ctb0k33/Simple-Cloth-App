@@ -26,6 +26,18 @@ Cloth app using Javafx, JDBC and MySQL
 ![image](https://user-images.githubusercontent.com/96061934/204151636-416ed431-fd2a-46ff-92ff-2d774498d952.png)
 
 
+# DataBase
+
+- Client<br/>
+![image](https://user-images.githubusercontent.com/96061934/204151721-0c12245c-bbdd-4fce-ac0b-b028d4b20840.png)<br/>
+
+- Orders<br/>
+![image](https://user-images.githubusercontent.com/96061934/204151734-0cb0c1b8-5614-4bbc-a218-658f1e93c8ce.png)<br/>
+
+- Final Order<br/>
+![image](https://user-images.githubusercontent.com/96061934/204151761-5e135b54-acc8-4c0a-9775-7a25e78c5035.png)
+
+
 
 
 
