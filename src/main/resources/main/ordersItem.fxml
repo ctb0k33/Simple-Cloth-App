@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="77.0" prefWidth="992.0" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.orderItemController">
+    <children>
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="77.0" prefWidth="992.0" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fx:id="image" fitHeight="77.0" fitWidth="428.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../image/Beanie.jpg" />
+            </image>
+            <HBox.margin>
+                <Insets left="5.0" />
+            </HBox.margin>
+        </ImageView>
+        <Label fx:id="productName" alignment="CENTER" prefHeight="75.0" prefWidth="134.0" text="Beanie">
+            <font>
+                <Font name="Corbel" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="10.0" />
+            </HBox.margin>
+        </Label>
+        <Label fx:id="price" alignment="CENTER" prefHeight="75.0" prefWidth="146.0" text="6.99$">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="50.0" />
+            </HBox.margin>
+        </Label>
+        <Label fx:id="quantity" alignment="CENTER" prefHeight="75.0" prefWidth="163.0" text="1">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="10.0" right="25.0" />
+            </HBox.margin>
+        </Label>
+        <Label fx:id="date" alignment="CENTER" prefHeight="75.0" prefWidth="163.0" text="2002-23-11">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+        </Label>
+        <Label fx:id="remove" alignment="CENTER" onMouseClicked="#removeOnAction" prefHeight="75.0" prefWidth="124.0" text="remove" underline="true">
+            <font>
+                <Font name="Corbel Italic" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="25.0" />
+            </HBox.margin>
+        </Label>
+    </children>
+</HBox>
+      <Line endX="889.5643310546875" endY="9.0" startX="-101.72846984863281" startY="9.0" />
+    </children>
+    </VBox>

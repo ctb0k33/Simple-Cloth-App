@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="82.0" prefWidth="998.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.clientOrderItemController">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="78.0" prefWidth="1008.0">
+         <children>
+            <Label fx:id="username" alignment="CENTER" prefHeight="75.0" prefWidth="134.0" text="ctb0k33">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="productName" alignment="CENTER" prefHeight="75.0" prefWidth="188.0" text="Beanie">
+               <font>
+                  <Font name="Corbel" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="price" alignment="CENTER" prefHeight="75.0" prefWidth="89.0" text="6.99$">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="quantity" alignment="CENTER" prefHeight="75.0" prefWidth="109.0" text="1">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Label>
+            <Label fx:id="date" alignment="CENTER" prefHeight="75.0" prefWidth="187.0" text="2002-23-11">
+               <font>
+                  <Font name="Calibri" size="24.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" prefHeight="78.0" prefWidth="105.0">
+               <children>
+                  <Label fx:id="remove" onMouseClicked="#removeButtonOnAction" text="Postpone" underline="true">
+                     <font>
+                        <Font name="Calibri Italic" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="onGoing" onMouseClicked="#onGoingButtonOnAction" text="On Going" underline="true">
+                     <font>
+                        <Font name="Calibri Italic" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="finish" onMouseClicked="#finishButtonOnAction" text="Finished" underline="true">
+                     <font>
+                        <Font name="Calibri Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Label fx:id="status" alignment="CENTER" prefHeight="75.0" prefWidth="164.0" text="On going" textFill="#323632">
+               <font>
+                  <Font name="Corbel Italic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Line endX="770.0" endY="10.0" startX="-218.71376037597656" startY="7.20059871673584" strokeWidth="0.6" />
+   </children>
+</VBox>

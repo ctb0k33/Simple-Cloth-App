@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="77.0" prefWidth="992.0" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.clientInformationController">
+    <children>
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="77.0" prefWidth="992.0" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="username" alignment="CENTER" prefHeight="75.0" prefWidth="154.0" text="ctb0k33">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="50.0" />
+            </HBox.margin>
+        </Label>
+        <Label fx:id="fullname" alignment="CENTER" prefHeight="75.0" prefWidth="222.0" text="Tran Chien Thang">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="50.0" />
+            </HBox.margin>
+        </Label>
+        <Label fx:id="balance" alignment="CENTER" prefHeight="75.0" prefWidth="222.0" text="0">
+            <font>
+                <Font name="Calibri" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets right="25.0" />
+            </HBox.margin>
+        </Label>
+        <Label fx:id="addbalance" alignment="CENTER" onMouseClicked="#addBalanceButtonOnAction" prefHeight="75.0" prefWidth="132.0" text="AddBalance" underline="true">
+            <font>
+                <Font name="Corbel Italic" size="24.0" />
+            </font>
+            <HBox.margin>
+                <Insets left="25.0" />
+            </HBox.margin>
+        </Label>
+    </children>
+</HBox>
+      <Line endX="891.2928466796875" startX="-100.0" />
+    </children>
+    </VBox>
